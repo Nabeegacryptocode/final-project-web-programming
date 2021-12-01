@@ -1,13 +1,23 @@
-
 import logo from './logo.svg';
+
 import './App.css';
-import PokemonPage from './components/pokemon';
+import Grid from './components/Grid';
+import React from 'react';
+import Backdrop from './components/background';
 
 function App() {
   return (
-    <div>
-    <PokemonPage text="pokedex" />
-    <PokemonPage/>
+    <div className="App">
+   <span className="headie1">Poke</span>
+   <span className="headie2">dex</span>
+ 
+      <div>
+
+
+
+</div>
+      <Grid/>
+      
     </div>
   );
 }
