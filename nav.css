@@ -19,8 +19,8 @@ body {
   }
   
   .topnav p:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: red;
+    color: red;
   }
   
   .topnav p.active {
